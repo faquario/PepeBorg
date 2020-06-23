@@ -196,15 +196,15 @@ if Config.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         else:
             result = builder.article(
                 "© @UniBorg",
-                text="""@PepeB0t **( Custom Built By** @kirito6969 **)
+                text="""PepeBorg **( Custom Built By** @ahrned **)
 **Verified Account:** ✅
-**Official Website:** https://prono69.github.io/PepeBot/
+
 
 **Pithun 3.8.2 (default, Apr 29 2020, 09:19:52)** 
 **[GCC 7.4.0]**
 **Talethrun 1.13.2**
 
-**Custom Built Fork:** https://github.com/prono69/PepeBot""",
+**Custom Built Fork:** https://github.com/faquario/PepeBorg""",
                 buttons=[
                     [custom.Button.url("👤Contact Creator👤", "https://telegram.dog/kirito6969"), custom.Button.url(
                         "📼Ravana Audio Memes📼", "https://t.me/tgaudiomemes")],

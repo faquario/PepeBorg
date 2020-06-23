@@ -28,7 +28,7 @@ async def _(event):
 Python {}
 Telethon {}
  
-**Custom Built Fork**: https://github.com/prono69/PepeBot """.format(
+**Custom Built Fork**: https://github.com/faquario/PepeBorg """.format(
         sys.version,
         __version__
     )
