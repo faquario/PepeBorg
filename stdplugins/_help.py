@@ -24,7 +24,7 @@ async def _(event):
         s_help_string = borg._plugins[splugin_name].__doc__
     else:
         s_help_string = ""
-    help_string = """@UniBorg ( **Custom Built By** @NeoMatrix90 ) \n**Verified Account**: ✅\n**DESCRIPTION**: https://alamtd.wordpress.com\n
+    help_string = """@UniBorg ( **Custom Built By** @ahrned ) \n**Verified Account**: ✅
 Python {}
 Telethon {}
  
@@ -69,7 +69,7 @@ async def _(event):
     await event.edit("""Telethon UserBot powered by @UniBorg""")
 
 
-@borg.on(admin_cmd(pattern="nigga (.*)"))
+@borg.on(admin_cmd(pattern="syntax (.*)"))
 async def _(event):
     if event.fwd_from:
         return
