@@ -15,6 +15,5 @@ my_messages=["(•‿•)", "meowww~~", " ʘ‿ʘ(✷‿✷)" ," ( ╹▽╹ )" 
 
 @borg.on(events.NewMessage)
 async def handle_new_message(event):
-    if event.text == 'meow' or event.text == 'Meow' or event.text.startswith('meow') or \
-    event.text.startswith('Meow'):
-        await event.reply(random.choice(my_messages))
+	if 'meow' in event.text.lower():
+		await event.reply(random.choice(my_messages))
