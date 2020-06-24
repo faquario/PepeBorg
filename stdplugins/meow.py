@@ -21,5 +21,4 @@ async def handle_new_message(event):
     else:
     	for i in event.text.split():
     		if i=='meow' or 'Meow':
-				await event.respond(random.choice(my_messages))
-
+    			await event.respond(random.choice(my_messages))
