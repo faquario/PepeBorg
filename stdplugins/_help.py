@@ -15,7 +15,7 @@ from telethon import functions, __version__
 from uniborg.util import admin_cmd
 
 
-@borg.on(admin_cmd(pattern="i ?(.*)", allow_sudo=True)) 
+@borg.on(admin_cmd(pattern="info ?(.*)", allow_sudo=True)) 
 async def _(event):
     if event.fwd_from:
         return
@@ -69,7 +69,7 @@ async def _(event):
     await event.edit("""Telethon UserBot powered by @UniBorg""")
 
 
-@borg.on(admin_cmd(pattern="e (.*)"))
+@borg.on(admin_cmd(pattern="syn (.*)"))
 async def _(event):
     if event.fwd_from:
         return
