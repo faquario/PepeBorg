@@ -6,7 +6,7 @@
 ◇ powered by
 ◆ `.config`\n
 ◇ to know syntax
-◆ `.nigga` <plugin name>
+◆ `.syn` <plugin name>
 """
 
 
@@ -24,7 +24,7 @@ async def _(event):
         s_help_string = borg._plugins[splugin_name].__doc__
     else:
         s_help_string = ""
-    help_string = """@UniBorg ( **Custom Built By** @ahrned ) \n**Verified Account**: ✅
+    help_string = """@UniBorg ( **Custom Built By** @ahrned )
 Python {}
 Telethon {}
  
