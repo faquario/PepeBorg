@@ -17,8 +17,4 @@ my_messages=["(•‿•)", "meowww~~", " ʘ‿ʘ(✷‿✷)" ," ( ╹▽╹ )" 
 async def handle_new_message(event):
     if event.text == 'meow' or event.text == 'Meow' or event.text.startswith('meow') or \
     event.text.startswith('Meow'):
-        await event.respond(random.choice(my_messages))
-    else:
-    	for i in event.text.split():
-    		if i=='meow' or 'Meow':
-    			await event.respond(random.choice(my_messages))
+        await event.reply(random.choice(my_messages))
