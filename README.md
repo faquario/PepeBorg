@@ -48,8 +48,7 @@ The core features offered by the custom `TelegramClient` live under the
 [`uniborg/`](https://github.com/muhammedfurkan/uniborg/tree/master/uniborg)
 directory, with some utilities, enhancements, the `_core` plugin, and the `_inline_bot` plugin.
  
- 
-## [@Kirito](https://telegram.dog/kirito6969)
+ ##Note:
  
 - Only two of the environment variables are mandatory.
 - This is because of `telethon.errors.rpc_error_list.ApiIdPublishedFloodError`
