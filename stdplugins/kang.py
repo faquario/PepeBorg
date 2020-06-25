@@ -60,8 +60,8 @@ async def _(event):
     me = borg.me
     name = me.username
     userid = event.from_id
-    packname = f"@{name}'s lawde Part3"
-    packshortname = f"puretaboo_gengbeng{userid}"  # format: Uni_Borg_userid
+    packname = "fav"
+    packshortname = "myfavpck69"  # format: Uni_Borg_userid
 
     is_a_s = is_it_animated_sticker(reply_message)
     file_ext_ns_ion = "chutiya_Sticker.png"
@@ -70,8 +70,8 @@ async def _(event):
     if is_a_s:
         file_ext_ns_ion = "AnimatedSticker.tgs"
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
-        packname = f"nikal_lawde_AnimatedStickers"
-        packshortname = f"kirito6969_Animated"  # format: Uni_Borg_userid
+        packname = f"my fav animations"
+        packshortname = f"myfavanim69"  # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
         await event.edit("Invalid message type")
         return
@@ -132,7 +132,7 @@ async def _(event):
             await silently_send_message(bot_conv, sticker_emoji)
             await silently_send_message(bot_conv, "/done")
 
-    await event.edit(f"`This Sticker Is Raped! Plox Help this Sticker by Clicking` [HERE](t.me/addstickers/{packshortname})")
+    await event.edit(f"`Added to pack:` [HERE](t.me/addstickers/{packshortname})")
 
 
 @borg.on(admin_cmd(pattern="packinfo"))
