@@ -26,13 +26,12 @@ async def _(event):
         s_help_string = ""
     help_string = """@UniBorg ( **Custom Built By** @ahrned )
 Python {}
-Telethon {}
-{}
+Telethon [.](https://telegra.ph/file/f315d3098b86381e03bd3.mp4){}
 }
  
 **Custom Built Fork**: https://github.com/faquario/PepeBorg """.format(
         sys.version,
-        __version__, https://telegra.ph/file/f315d3098b86381e03bd3.mp4
+        __version__
     )
     tgbotusername = Config.TG_BOT_USER_NAME_BF_HER 
     if tgbotusername is not None:
