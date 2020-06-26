@@ -45,7 +45,7 @@ Telethon {}
         )
         await event.delete()
     else:
-        await event.reply(help_string + "\n\n" + s_help_string)
+        await event.reply(help_string + "\n\n" + s_help_string + "\n\n" + "[ . . . . . . . . . . . . . . . . . . . ](https://telegra.ph/file/f315d3098b86381e03bd3.mp4)", link_preview=True)
         await event.delete()
 
 
