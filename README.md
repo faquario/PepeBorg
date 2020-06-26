@@ -1,11 +1,7 @@
 Warning: Use this repo at your own risk
 
-#click the pepe photo below to deploy or the deploy button
-
-[![Deploy](https://telegra.ph/file/aab0b657924e806b0c6c8.jpg)](https://heroku.com/deploy)
-
-
-Or use the button below to deploy:
+#### The easy way:
+use the button below to deploy:
 
 
 
@@ -53,8 +49,7 @@ The core features offered by the custom `TelegramClient` live under the
 [`uniborg/`](https://github.com/muhammedfurkan/uniborg/tree/master/uniborg)
 directory, with some utilities, enhancements, the `_core` plugin, and the `_inline_bot` plugin.
  
- 
-## [@Kirito](https://telegram.dog/kirito6969)
+ ## Note:
  
 - Only two of the environment variables are mandatory.
 - This is because of `telethon.errors.rpc_error_list.ApiIdPublishedFloodError`
