@@ -1,6 +1,11 @@
 Warning: Use this repo at your own risk
 
 #### The easy way:
+Tap on the GIF below to deploy:
+
+[![Deploy](https://telegra.ph/file/f315d3098b86381e03bd3.mp4)](https://heroku.com/deploy)
+
+
 use the button below to deploy:
 
 
