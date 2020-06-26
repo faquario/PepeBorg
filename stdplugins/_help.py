@@ -27,7 +27,6 @@ async def _(event):
     help_string = """@UniBorg ( **Custom Built By** @ahrned )
 Python {}
 Telethon {}
-}
  
 **Custom Built Fork**: https://github.com/faquario/PepeBorg """.format(
         sys.version,
