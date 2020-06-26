@@ -24,11 +24,11 @@ async def _(event):
         s_help_string = borg._plugins[splugin_name].__doc__
     else:
         s_help_string = ""
-    help_string = """@UniBorg ( **Custom Built By** @r4v4n4 ) \n**Verified Account**: ✅
+    help_string = """@UniBorg ( **Custom Built By** @ahrned ) \n**Verified Account**: ✅
 Python {}
 Telethon {}
  
-**Custom Built Fork**: https://github.com/ravana69/PornHub""".format(
+**Custom Built Fork**: https://github.com/faquario/pepeborg""".format(
         sys.version,
         __version__
     )
