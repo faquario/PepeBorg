@@ -1,1 +1,1 @@
-worker: python3 -m stdborg
+web: python3 -m stdborg
